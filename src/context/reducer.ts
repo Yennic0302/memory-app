@@ -9,5 +9,7 @@ export const MemoryReducer: React.Reducer<MemoryState, MemoryActions> = (
   switch (action.type) {
     case Types.setMemoryOptions:
       return { ...state, memoryOptions: action.payload };
+    case Types.setPlaying:
+      return { ...state, playing: action.payload };
   }
 };

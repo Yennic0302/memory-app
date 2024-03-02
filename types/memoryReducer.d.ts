@@ -14,6 +14,7 @@ type ActionMap<M extends { [index: string]: unknown }> = {
 
 type MemoryPayload = {
   [Types.setMemoryOptions]: MemoryOptions;
+  [Types.setPlaying]: boolean;
 };
 
 export type MemoryActions =

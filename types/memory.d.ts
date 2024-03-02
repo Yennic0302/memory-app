@@ -9,5 +9,6 @@ export interface MemoryOptions {
 }
 
 export interface MemoryState {
+  playing: boolean;
   memoryOptions: MemoryOptions;
 }
