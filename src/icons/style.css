@@ -1,0 +1,15 @@
+.memory-icon {
+  cursor: pointer;
+  border: 2px solid #ccc;
+  border-radius: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+  padding: 0.1rem;
+}
+
+@media screen and (max-width: 480px) {
+  .memory-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}

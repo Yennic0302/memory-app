@@ -1,0 +1,55 @@
+.memory_title {
+  font-size: 90px;
+  font-weight: 800;
+  text-shadow: 1px 1px 10px #444;
+  color: #fff;
+}
+
+.div1 {
+  transform: translateY(10px);
+  animation: mover 4s infinite;
+  display: inline-block;
+}
+.div2 {
+  transform: translateY(10px);
+  animation: mover 4s infinite 0.5s;
+  display: inline-block;
+}
+.div3 {
+  transform: translateY(10px);
+  animation: mover 4s infinite 1s;
+  display: inline-block;
+}
+.div4 {
+  transform: translateY(10px);
+  display: inline-block;
+  animation: mover 4s infinite 1.5s;
+}
+.div5 {
+  transform: translateY(10px);
+  display: inline-block;
+  animation: mover 4s infinite 2s;
+}
+.div6 {
+  transform: translateY(10px);
+  display: inline-block;
+  animation: mover 4s infinite 2.5s;
+}
+
+@keyframes mover {
+  0% {
+    transform: translateY(10px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .memory_title {
+    font-size: 60px;
+  }
+}

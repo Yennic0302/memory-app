@@ -1,0 +1,169 @@
+.bg_container {
+  position: absolute;
+  width: 100%;
+  height: 90vh;
+  background-color: transparent;
+}
+
+.bg_card_img {
+  position: absolute;
+  height: 80px;
+  width: 50px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px #222;
+  transform-style: preserve-3d;
+  transform: translateX(-400px);
+}
+
+.img-1 {
+  background: url(/imgs/anime/card1.jpg) no-repeat center center/cover;
+  animation: moveCard1 60s infinite 40s;
+}
+.img-2 {
+  background: url(/imgs/cities/card2.jpg) no-repeat center center/cover;
+  animation: moveCard2 49s infinite;
+}
+.img-3 {
+  background: url(/imgs/anime/card11.jpg) no-repeat center center/cover;
+  animation: moveCard3 42s infinite;
+}
+.img-4 {
+  background: url(/imgs/anime/card6.jpg) no-repeat center center/cover;
+  animation: moveCard4 59s infinite 10s;
+}
+.img-5 {
+  background: url(/imgs/cities/card14.jpg) no-repeat center center/cover;
+  animation: moveCard5 52s infinite 30s;
+}
+.img-6 {
+  background: url(/imgs/anime/card8.jpg) no-repeat center center/cover;
+  animation: moveCard6 49s infinite 20s;
+}
+.img-7 {
+  background: url(/imgs/anime/card5.jpg) no-repeat center center/cover;
+  animation: moveCard7 58s infinite 15;
+}
+.img-8 {
+  background: url(/imgs/cities/card4.jpg) no-repeat center center/cover;
+  animation: moveCard8 53s infinite 20s;
+}
+
+.img-9 {
+  background: url(/imgs/anime/card14.jpg) no-repeat center center/cover;
+  animation: moveCard9 50s infinite 10s;
+}
+
+@keyframes moveCard1 {
+  0% {
+    transform: rotateX(50deg) rotateY(20deg) rotateZ(-35deg) translateY(10px)
+      translateX(-400px);
+    opacity: 1;
+  }
+  100% {
+    transform: rotateX(50deg) rotateY(20deg) rotateZ(-35deg) translateY(100px)
+      translateX(800px);
+    opacity: 0;
+  }
+}
+@keyframes moveCard2 {
+  0% {
+    transform: rotateX(50deg) rotateY(20deg) rotateZ(-35deg) translateY(50px)
+      translateX(-400px);
+    opacity: 1;
+  }
+  100% {
+    transform: rotateX(50deg) rotateY(20deg) rotateZ(-35deg) translateY(150px)
+      translateX(800px);
+    opacity: 0;
+  }
+}
+@keyframes moveCard3 {
+  0% {
+    transform: rotateX(50deg) rotateY(20deg) rotateZ(-35deg) translateY(100px)
+      translateX(-600px);
+    opacity: 1;
+  }
+  100% {
+    transform: rotateX(50deg) rotateY(20deg) rotateZ(-35deg) translateY(300px)
+      translateX(800px);
+    opacity: 0;
+  }
+}
+@keyframes moveCard4 {
+  0% {
+    transform: rotateX(50deg) rotateY(20deg) rotateZ(-35deg) translateY(150px)
+      translateX(-600px);
+    opacity: 1;
+  }
+  100% {
+    transform: rotateX(50deg) rotateY(20deg) rotateZ(-35deg) translateY(300px)
+      translateX(800px);
+    opacity: 0;
+  }
+}
+@keyframes moveCard5 {
+  0% {
+    transform: rotateX(50deg) rotateY(20deg) rotateZ(-35deg) translateY(200px)
+      translateX(-600px);
+    opacity: 1;
+  }
+  100% {
+    transform: rotateX(50deg) rotateY(20deg) rotateZ(-35deg) translateY(400px)
+      translateX(800px);
+    opacity: 0;
+  }
+}
+@keyframes moveCard6 {
+  0% {
+    transform: rotateX(50deg) rotateY(20deg) rotateZ(-35deg) translateY(250px)
+      translateX(-600px);
+    opacity: 1;
+  }
+  100% {
+    transform: rotateX(50deg) rotateY(20deg) rotateZ(-35deg) translateY(500px)
+      translateX(800px);
+    opacity: 0;
+  }
+}
+@keyframes moveCard7 {
+  0% {
+    transform: rotateX(50deg) rotateY(20deg) rotateZ(-35deg) translateY(300px)
+      translateX(-600px);
+    opacity: 1;
+  }
+  100% {
+    transform: rotateX(50deg) rotateY(20deg) rotateZ(-35deg) translateY(500px)
+      translateX(400px);
+    opacity: 0;
+  }
+}
+@keyframes moveCard8 {
+  0% {
+    transform: rotateX(50deg) rotateY(20deg) rotateZ(-35deg) translateY(350px)
+      translateX(-600px);
+    opacity: 1;
+  }
+  100% {
+    transform: rotateX(50deg) rotateY(20deg) rotateZ(-35deg) translateY(550px)
+      translateX(400px);
+    opacity: 0;
+  }
+}
+@keyframes moveCard9 {
+  0% {
+    transform: rotateX(50deg) rotateY(20deg) rotateZ(-35deg) translateY(400px)
+      translateX(-600px);
+    opacity: 1;
+  }
+  100% {
+    transform: rotateX(50deg) rotateY(20deg) rotateZ(-35deg) translateY(600px)
+      translateX(400px);
+    opacity: 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .bg_container {
+    display: none;
+  }
+}

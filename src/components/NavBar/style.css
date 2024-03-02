@@ -1,0 +1,12 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  width: 100%;
+  background-color: var(--nav-bg);
+  color: var(--text-color);
+}
+
+.navbar_title {
+  margin-left: 1rem;
+}
