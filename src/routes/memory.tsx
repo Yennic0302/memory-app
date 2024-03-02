@@ -6,7 +6,6 @@ import {
   useState,
 } from "react";
 import { useNavigate } from "react-router-dom";
-import { Types } from "../../types/actionsEnum";
 import Loader from "../components/Loader";
 import { MemoryContext } from "../context/ContextProvider";
 import Home from "../icons/Home";
@@ -23,7 +22,7 @@ const DIFICULTY_CLASSES = {
 let cardCount = 0;
 
 export default function Memory() {
-  const [{ memoryOptions, playing }, dispatch] = useContext(MemoryContext);
+  const [{ memoryOptions }] = useContext(MemoryContext);
   const [cards, setCards] = useState<number[]>([]);
   const [loading, setLoading] = useState<boolean>(false);
   const [pageLoaded, setPageLoaded] = useState<boolean>(false);
@@ -39,8 +38,6 @@ export default function Memory() {
   const card_two = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
-    if (!playing) navigate("/");
-    dispatch({ type: Types.setPlaying, payload: true });
     setCards(generateRandomArray(memoryOptions.difficulty));
   }, []);
 
