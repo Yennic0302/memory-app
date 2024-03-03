@@ -5,7 +5,6 @@ import { MemoryActions } from "../../types/memoryReducer";
 import { MemoryReducer } from "./reducer";
 
 const defaultValues: MemoryState = {
-  playing: false,
   memoryOptions: {
     difficulty: Difficulty.EASY,
     time: 30,
