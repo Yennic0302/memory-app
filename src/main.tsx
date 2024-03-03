@@ -22,7 +22,7 @@ const router = createBrowserRouter([
     element: <Memory />,
   },
   {
-    path: "*",
+    path: "./*",
     element: <Navigate to="/" replace={true} />,
   },
 ]);
