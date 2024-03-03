@@ -1,6 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import {
+  Navigate,
+  RouterProvider,
+  createBrowserRouter,
+} from "react-router-dom";
 import MemoryBg from "./components/MemoryBg";
 import NavBar from "./components/NavBar";
 import ContextProvider from "./context/ContextProvider";
@@ -19,7 +23,7 @@ const router = createBrowserRouter([
   },
   {
     path: "*",
-    element: <Root />,
+    element: <Navigate to="/" replace={true} />,
   },
 ]);
 
