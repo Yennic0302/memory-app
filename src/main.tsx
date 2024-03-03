@@ -17,6 +17,10 @@ const router = createBrowserRouter([
     path: "/playing",
     element: <Memory />,
   },
+  {
+    path: "*",
+    element: <Root />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
