@@ -14,7 +14,7 @@ const router = createBrowserRouter([
     element: <Root />,
   },
   {
-    path: "playing",
+    path: "/playing",
     element: <Memory />,
   },
 ]);
