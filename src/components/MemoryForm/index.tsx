@@ -36,9 +36,9 @@ export default function MemoryForm() {
             name="difficulty"
             defaultValue="EASY"
           >
-            <option value="EASY">ease</option>
-            <option value="MEDIUM">medium</option>
-            <option value="HARD">hard</option>
+            <option value="EASY">Easy</option>
+            <option value="MEDIUM">Medium</option>
+            <option value="HARD">Hard</option>
           </select>
 
           <select className="form_selecter" name="time" defaultValue={60}>
