@@ -154,6 +154,8 @@ export default function Memory() {
     setCardsCompleted([]);
     setPlay(true);
     setTime(memoryOptions.time);
+    card_one.current = null;
+    card_two.current = null;
     const reloadCards = document.getElementsByClassName("card");
     for (let i = 0; i < reloadCards.length; i++) {
       reloadCards[i].classList.remove("correct_cards");
