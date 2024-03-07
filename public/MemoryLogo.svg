@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 404.87">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-family: Nunito-Bold, Nunito;
+        font-size: 345.95px;
+        font-variation-settings: 'wght' 700;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        fill: #06172b;
+      }
+    </style>
+  </defs>
+  <rect class="cls-2" width="400" height="400"/>
+  <text class="cls-1" transform="translate(53.98 309.38)"><tspan x="0" y="0">M</tspan></text>
+</svg>
